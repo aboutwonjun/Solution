@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Cpp_기본">
+      <UniqueIdentifier>{b17282ee-8433-4f4b-8ad9-f7cad80a921c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Cpp_반복문">
+      <UniqueIdentifier>{0ed1bb64-dd5a-4a59-a306-2a24e7bd7610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Cpp_배열">
+      <UniqueIdentifier>{349b8506-0989-4549-951d-fe6ce26ad988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Cpp_함수">
+      <UniqueIdentifier>{952162ee-0113-497c-9b3b-39461eb38828}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0422_C++ 기본\main.cpp">
+      <Filter>소스 파일\Cpp_기본</Filter>
+    </ClCompile>
+    <ClCompile Include="0422_C++ 기본\practice_1.cpp">
+      <Filter>소스 파일\Cpp_기본</Filter>
+    </ClCompile>
+    <ClCompile Include="0422_C++ 기본\practice_2.cpp">
+      <Filter>소스 파일\Cpp_기본</Filter>
+    </ClCompile>
+    <ClCompile Include="0422_C++ 기본\practice_3.cpp">
+      <Filter>소스 파일\Cpp_기본</Filter>
+    </ClCompile>
+    <ClCompile Include="0423_반복문\practice1_구구단.cpp">
+      <Filter>소스 파일\Cpp_반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="0423_반복문\practice2_1부터N까지합.cpp">
+      <Filter>소스 파일\Cpp_반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="0423_반복문\practice3_while문.cpp">
+      <Filter>소스 파일\Cpp_반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="0423_반복문\practice4_사용자가입력한숫자더하기.cpp">
+      <Filter>소스 파일\Cpp_반복문</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\배열\practice1_배열과인덱스.cpp">
+      <Filter>소스 파일\Cpp_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\배열\practice2_다차원배열.cpp">
+      <Filter>소스 파일\Cpp_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\배열\practiceofpracte1.cpp">
+      <Filter>소스 파일\Cpp_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\배열\리더님버전연습.cpp">
+      <Filter>소스 파일\Cpp_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\배열\practice1_리더님버전.cpp">
+      <Filter>소스 파일\Cpp_배열</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\함수\Lecture.cpp">
+      <Filter>소스 파일\Cpp_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\함수\practcie3_foreach문.cpp">
+      <Filter>소스 파일\Cpp_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\함수\practice1_사칙연산함수.cpp">
+      <Filter>소스 파일\Cpp_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="0424_반복문(2), 배열\함수\practice2_홀수짝수.cpp">
+      <Filter>소스 파일\Cpp_함수</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
