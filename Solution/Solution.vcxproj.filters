@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Cpp_함수">
       <UniqueIdentifier>{952162ee-0113-497c-9b3b-39461eb38828}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0508">
+      <UniqueIdentifier>{a0568c52-1da9-42ec-a364-685388b8662c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0422_C++ 기본\main.cpp">
@@ -78,5 +81,16 @@
     <ClCompile Include="0424_반복문(2), 배열\함수\practice2_홀수짝수.cpp">
       <Filter>소스 파일\Cpp_함수</Filter>
     </ClCompile>
+    <ClCompile Include="0508\login2.cpp">
+      <Filter>소스 파일\0508</Filter>
+    </ClCompile>
+    <ClCompile Include="0508\login3.cpp">
+      <Filter>소스 파일\0508</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="0508\member_tel.txt">
+      <Filter>소스 파일\0508</Filter>
+    </Text>
   </ItemGroup>
 </Project>
