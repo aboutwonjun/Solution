@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\0508">
       <UniqueIdentifier>{a0568c52-1da9-42ec-a364-685388b8662c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0509">
+      <UniqueIdentifier>{4f5bedb9-793e-4eea-a81c-f0d74efda06f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0422_C++ 기본\main.cpp">
@@ -87,9 +90,15 @@
     <ClCompile Include="0508\login3.cpp">
       <Filter>소스 파일\0508</Filter>
     </ClCompile>
+    <ClCompile Include="0509_구조체\Rectangle.cpp">
+      <Filter>소스 파일\0509</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="0508\member_tel.txt">
+      <Filter>소스 파일\0508</Filter>
+    </Text>
+    <Text Include="0508\member.txt">
       <Filter>소스 파일\0508</Filter>
     </Text>
   </ItemGroup>
