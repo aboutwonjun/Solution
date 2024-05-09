@@ -16,7 +16,7 @@ void transaction(); // ∞Ë¡¬ ¿Ã√º
 
 }
 
-void checkMyInfo();
+void checkMyInfo(); ///
 {
 
 }
