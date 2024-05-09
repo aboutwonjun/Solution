@@ -184,7 +184,9 @@
     <ClCompile Include="0508\login3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0509_구조체\Rectangle.cpp" />
+    <ClCompile Include="0509_구조체\Rectangle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="0508\member.txt" />
