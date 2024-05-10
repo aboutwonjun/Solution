@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\0509">
       <UniqueIdentifier>{4f5bedb9-793e-4eea-a81c-f0d74efda06f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0510_클래스">
+      <UniqueIdentifier>{efe2ba5f-a04e-4bd4-9a5c-d9664559adb8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0422_C++ 기본\main.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="0509_구조체\Rectangle.cpp">
       <Filter>소스 파일\0509</Filter>
+    </ClCompile>
+    <ClCompile Include="0510 Class\Class_생성자.cpp">
+      <Filter>소스 파일\0510_클래스</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
