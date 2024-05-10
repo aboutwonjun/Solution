@@ -65,6 +65,11 @@ int main()
 	// Rectangle 클래스를 기본 생성자로 생성된 다른 클래스 변수에 복사하기 (할당 사용) 
 	Rectangle Rect_copy2(Rect_copy); 
 
+	//리더님 방식 
+	// 비어있는 인스턴스 만들고 부등호 사용하면 더 간단함! 
+	Rectangle rect2;
+	rect2 = Rect_copy;
+
 	// 1-1 4번 
 	// 복사한 변수의 area() 호출해서 넓이 구하기 
 	cout << "Rect_copy2 결과값 : " << Rect_copy2.area() << endl;
