@@ -187,14 +187,21 @@
     <ClCompile Include="0509_구조체\Rectangle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0510 Class\Class_getset.cpp" />
+    <ClCompile Include="0510 Class\Class_getset.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="0510 Class\Class_생성자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Project_game\game.cpp" />
+    <ClCompile Include="Project_game\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="0508\member.txt" />
     <Text Include="0508\member_tel.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project_game\game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

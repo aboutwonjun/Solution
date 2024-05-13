@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\0510_클래스">
       <UniqueIdentifier>{efe2ba5f-a04e-4bd4-9a5c-d9664559adb8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Project_rpg">
+      <UniqueIdentifier>{05eec421-2241-48da-bcd4-84cc66538f28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0422_C++ 기본\main.cpp">
@@ -102,6 +105,12 @@
     <ClCompile Include="0510 Class\Class_getset.cpp">
       <Filter>소스 파일\0510_클래스</Filter>
     </ClCompile>
+    <ClCompile Include="Project_game\game.cpp">
+      <Filter>소스 파일\Project_rpg</Filter>
+    </ClCompile>
+    <ClCompile Include="Project_game\main.cpp">
+      <Filter>소스 파일\Project_rpg</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="0508\member_tel.txt">
@@ -110,5 +119,10 @@
     <Text Include="0508\member.txt">
       <Filter>소스 파일\0508</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project_game\game.h">
+      <Filter>소스 파일\Project_rpg</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
