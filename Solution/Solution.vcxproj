@@ -199,6 +199,7 @@
   <ItemGroup>
     <Text Include="0508\member.txt" />
     <Text Include="0508\member_tel.txt" />
+    <Text Include="record.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Project_game\game.h" />

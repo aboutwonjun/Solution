@@ -119,6 +119,9 @@
     <Text Include="0508\member.txt">
       <Filter>소스 파일\0508</Filter>
     </Text>
+    <Text Include="record.txt">
+      <Filter>소스 파일\Project_rpg</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Project_game\game.h">
