@@ -62,9 +62,9 @@ public:
 	}
 
 	//¿À¹ö·Îµù 
-	void printfInfo(int lengthBase, int verticalLength)
+	void printfInfo(int w, int h)
 	{
-		cout << "»ç°¢ÇüÀÇ ³ÐÀÌ´Â { " << lengthBase * verticalLength << " }" << endl;
+		cout << "»ç°¢ÇüÀÇ ³ÐÀÌ´Â { " << w * h << " }" << endl;
 	}
 
 };
@@ -89,9 +89,9 @@ public:
 		return (m_height * lengthBase) * 0.5;
 	}
 
-	void printfInfo(int m_height, int lengthBase)
+	void printfInfo(int w, int h)
 	{
-		cout << "»ï°¢ÇüÀÇ ³ÐÀÌ´Â { " << m_height * lengthBase << " }" << endl;
+		cout << "»ï°¢ÇüÀÇ ³ÐÀÌ´Â { " << w * h << " }" << endl;
 	}
 
 
