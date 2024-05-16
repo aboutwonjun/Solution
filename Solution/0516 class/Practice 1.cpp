@@ -6,32 +6,32 @@ class Shape
 {
 public:
 	int numSide;
-	int numBase;
+	int lengthBase;
 
-	void printfInfo(int numSide, int numBase)
+	void printfInfo(int numSide, int lengthBase)
 	{
 		cout << "변의 개수" << numSide;
-		cout << "밑변의 길이" << numBase;
+		cout << "밑변의 길이" << lengthBase;
 	}
 };
 
 class Rectangle : public Shape
 {
 private : 
-	int m_width;
-	int m_length;
+	int m_verticalLength;
 
 public:
 	//생성자에서 모든 변수에 값을 대입해야함 
-	Rectangle(int width, int length)
+	Rectangle(int length_base, int verticalLength)
 	{
-		m_width = width;
-		m_length = length;
+
+		m_verticalLength = verticalLength;
+		lengthBase = length_base;
 	}
 
 	void area()
 	{
-		cout << "도형의 넓이는? : " << m_width * m_length;
+		cout << "도형의 넓이는? : " << lengthBase * m_verticalLength;
 	}
 	
 
@@ -42,19 +42,18 @@ class Triangle : public Shape
 {
 private : 
 	int m_height; //높이 
-	int m_length; //세로 
 
 
 public:
-	Triangle(int height, int length)
+	Triangle(int height, int length_base)
 	{
 		m_height = height;
-		m_length = length;
+		this->lengthBase = lengthBase;
 	}
 
 	void area()
 	{
-		cout << "삼각형의 넓이는? : " << (m_height * m_length) / 2;
+		cout << "삼각형의 넓이는? : " << (m_height * lengthBase) / 2 << endl;
 	}
 
 };
@@ -65,11 +64,10 @@ int main()
 	// 사각형 인스턴스 생성 
 	Rectangle rectangle(5, 10); // Width: 5, Length: 10
 
-	rectangle.area();
+	rectangle.area(); 
 
 	// 삼각형 인스턴스 생성 
-	Triangle triangle(4, 6); // Height: 4, Base: 6
-
+	Triangle triangle(4, 6);
 	triangle.area();
 
 	return 0;
