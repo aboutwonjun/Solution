@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\Project_rpg">
       <UniqueIdentifier>{05eec421-2241-48da-bcd4-84cc66538f28}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0516 class">
+      <UniqueIdentifier>{4b15ec19-6c81-494b-9921-c3743088b864}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0422_C++ 기본\main.cpp">
@@ -110,6 +113,9 @@
     </ClCompile>
     <ClCompile Include="Project_game\main.cpp">
       <Filter>소스 파일\Project_rpg</Filter>
+    </ClCompile>
+    <ClCompile Include="0516 class\Practice 1.cpp">
+      <Filter>소스 파일\0516 class</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
