@@ -37,7 +37,7 @@ public:
 
 class Rectangle : public Shape
 {
-private : 
+private:
 	int m_verticalLength; // 세로길이 멤버변수 
 
 public:
@@ -50,18 +50,24 @@ public:
 		numSide = 4;
 	}
 
-	void area()
+	void area() 
 	{
 		cout << "도형의 넓이는? : " << lengthBase * m_verticalLength;
 	}
-	
+
+	void printfInfo()
+	{
+
+		cout << "사각형의 넓이는 :"  << lengthBase * m_verticalLength << endl;
+	}
+
 
 };
 
 
 class Triangle : public Shape
 {
-private : 
+private:
 	int m_height; //높이 
 
 
@@ -78,6 +84,12 @@ public:
 		cout << "삼각형의 넓이는? : " << (m_height * lengthBase) * 0.5 << endl;
 	}
 
+	void printfInfo()
+	{
+		cout << "삼각형의 넓이 :" (m_height * lengthBase) / 2   << endl;
+	}
+
+
 };
 
 
@@ -86,12 +98,10 @@ int main()
 	// 사각형 인스턴스 생성 
 	Rectangle rectangle(5, 10); // Width: 5, Length: 10
 	rectangle.printfInfo();
-	rectangle.area(); 
 
 	// 삼각형 인스턴스 생성 
 	Triangle triangle(4, 10);
 	triangle.printfInfo();
-	triangle.area();
 
 	return 0;
 }
