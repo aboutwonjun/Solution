@@ -50,17 +50,15 @@ public:
 		numSide = 4;
 	}
 
-	void area() 
+	int area() 
 	{
-		cout << "µµÇüÀÇ ³ĞÀÌ´Â? : " << lengthBase * m_verticalLength;
+		return lengthBase * m_verticalLength;
 	}
 
 	void printfInfo()
 	{
-
-		cout << "»ç°¢ÇüÀÇ ³ĞÀÌ´Â :"  << lengthBase * m_verticalLength << endl;
+		cout << "»ç°¢ÇüÀÇ ³ĞÀÌ´Â { " << area() << " }" << endl;
 	}
-
 
 };
 
@@ -79,14 +77,14 @@ public:
 		numSide = 3;
 	}
 
-	void area()
+	int area()
 	{
-		cout << "»ï°¢ÇüÀÇ ³ĞÀÌ´Â? : " << (m_height * lengthBase) * 0.5 << endl;
+		return (m_height * lengthBase) * 0.5;
 	}
 
 	void printfInfo()
 	{
-		cout << "»ï°¢ÇüÀÇ ³ĞÀÌ :" (m_height * lengthBase) / 2   << endl;
+		cout << "»ï°¢ÇüÀÇ ³ĞÀÌ´Â { " << area() << " }" << endl;
 	}
 
 
