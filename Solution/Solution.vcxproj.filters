@@ -120,6 +120,9 @@
     <ClCompile Include="0516 class\Practice2.cpp">
       <Filter>소스 파일\0516 class</Filter>
     </ClCompile>
+    <ClCompile Include="0516 class\Practice3.cpp">
+      <Filter>소스 파일\0516 class</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="0508\member_tel.txt">

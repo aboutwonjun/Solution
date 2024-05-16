@@ -56,14 +56,15 @@ public:
 		numSide = 4;
 	}
 
-	int area() 
+	int area()
 	{
 		return lengthBase * m_verticalLength;
 	}
 
-	void printfInfo()
+	//오버로딩 
+	void printfInfo(int lengthBase, int verticalLength)
 	{
-		cout << "사각형의 넓이는 { " << area() << " }" << endl;
+		cout << "사각형의 넓이는 { " << lengthBase * verticalLength << " }" << endl;
 	}
 
 };
@@ -88,9 +89,9 @@ public:
 		return (m_height * lengthBase) * 0.5;
 	}
 
-	void printfInfo()
+	void printfInfo(int m_height, int lengthBase)
 	{
-		cout << "삼각형의 넓이는 { " << area() << " }" << endl;
+		cout << "삼각형의 넓이는 { " << m_height * lengthBase << " }" << endl;
 	}
 
 
@@ -101,11 +102,11 @@ int main()
 {
 	// 사각형 인스턴스 생성 
 	Rectangle rectangle(5, 10); // Width: 5, Length: 10
-	rectangle.printfInfo();
+	rectangle.printfInfo(5, 10);
 
 	// 삼각형 인스턴스 생성 
 	Triangle triangle(4, 10);
-	triangle.printfInfo();
+	triangle.printfInfo(4, 10);
 
 	return 0;
 }

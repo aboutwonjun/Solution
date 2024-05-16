@@ -196,7 +196,10 @@
     <ClCompile Include="0516 class\Practice 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0516 class\Practice2.cpp" />
+    <ClCompile Include="0516 class\Practice2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="0516 class\Practice3.cpp" />
     <ClCompile Include="Project_game\game.cpp" />
     <ClCompile Include="Project_game\main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
