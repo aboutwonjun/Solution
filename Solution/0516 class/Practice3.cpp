@@ -67,6 +67,10 @@ public:
 		cout << "실습 3: 사각형의 넓이는 { " << area () << " }" << endl;
 	}
 
+	void printInfo(int a)
+	{
+		//fff
+	}
 
 	
 	//오버로딩 
@@ -76,7 +80,7 @@ public:
 		//int h = m_verticalLength;
 		cout << "사각형의 넓이는 { " << w * h << " }" << endl;
 	}
-
+https://github.com/seoyoung0221/cpp_codingon/blob/main/240516/prac1.cpp#L113
 };
 
 
