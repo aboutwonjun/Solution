@@ -3,8 +3,16 @@
 using namespace std;
 
 class Shape
+
 {
 public:
+
+	Shape() //생성자호출 
+	{
+		numSide = 0;
+		lengthBase = 0;
+	}
+
 	int numSide;
 	int lengthBase;
 
@@ -18,13 +26,12 @@ public:
 class Rectangle : public Shape
 {
 private : 
-	int m_verticalLength;
+	int m_verticalLength; // 세로길이 멤버변수 
 
 public:
 	//생성자에서 모든 변수에 값을 대입해야함 
 	Rectangle(int length_base, int verticalLength)
 	{
-
 		m_verticalLength = verticalLength;
 		lengthBase = length_base;
 	}
@@ -63,7 +70,6 @@ int main()
 {
 	// 사각형 인스턴스 생성 
 	Rectangle rectangle(5, 10); // Width: 5, Length: 10
-
 	rectangle.area(); 
 
 	// 삼각형 인스턴스 생성 
