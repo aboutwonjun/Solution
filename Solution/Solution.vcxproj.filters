@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\0516 class">
       <UniqueIdentifier>{4b15ec19-6c81-494b-9921-c3743088b864}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0520">
+      <UniqueIdentifier>{1874de8d-424f-4d1b-b623-13a047ae995a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0422_C++ 기본\main.cpp">
@@ -128,6 +131,9 @@
     </ClCompile>
     <ClCompile Include="0516 class\Practice5.cpp">
       <Filter>소스 파일\0516 class</Filter>
+    </ClCompile>
+    <ClCompile Include="0520 Class\Practice1_upDownCasting.cpp">
+      <Filter>소스 파일\0520</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
