@@ -61,9 +61,9 @@ int main() {
     }
 
     // 각 클래스의 고유 함수 호출
-    static_cast<Teacher*>(pList[0])->teach();
-    static_cast<Student*>(pList[1])->learn();
-    static_cast<Student*>(pList[2])->learn();
+    ((Teacher*)pList[0])->teach();
+    ((Student*)pList[1])->learn();
+    ((Student*)pList[2])->learn();
 
     // 메모리 해제
     for (auto p : pList) {
