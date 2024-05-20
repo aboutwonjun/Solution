@@ -208,7 +208,10 @@
     <ClCompile Include="0516 class\Practice5.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="0520 Class\Practice1_upDownCasting.cpp" />
+    <ClCompile Include="0520 Class\Practice1_upDownCasting.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="0520 Class\Practice2_virtual func.cpp" />
     <ClCompile Include="Project_game\game.cpp" />
     <ClCompile Include="Project_game\main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

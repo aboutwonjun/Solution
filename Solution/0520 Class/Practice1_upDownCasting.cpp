@@ -9,7 +9,7 @@ protected:
     string m_company;
 
 public:
-    Snack(const string& companyName) : m_company(companyName) {}
+    Snack(string companyName) : m_company(companyName) {}
 
     int getPrice() const {
         return m_price;
@@ -21,7 +21,7 @@ public:
     string getProductName() const {
         return m_productName;
     }
-    void setProductName(const string& productName) {
+    void setProductName(string productName) {
         m_productName = productName;
     }
 
@@ -86,11 +86,22 @@ int main() {
 
     // 포인터 배열 선언 및 초기화
     //GPT 참고 
+    //Snack* snackBasket[4];
+    //snackBasket[0] = &candy1;
+    //snackBasket[1] = &candy2;
+    //snackBasket[2] = &choco1;
+    //snackBasket[3] = &choco2;
+
+     
+    
+// 포인터 배열 선언
     Snack* snackBasket[4];
-    snackBasket[0] = &candy1;
-    snackBasket[1] = &candy2;
-    snackBasket[2] = &choco1;
-    snackBasket[3] = &choco2;
+
+    // 동적으로 객체 생성하여 포인터에 할당
+    snackBasket[0] = new Candy("A");
+    snackBasket[1] = new Candy("B");
+    snackBasket[2] = new Chocolate("C");
+    snackBasket[3] = new Chocolate("D");
 
     // 다운캐스팅을 통해 제조사 출력
     for (int i = 0; i < 4; ++i) {

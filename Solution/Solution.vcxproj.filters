@@ -135,6 +135,9 @@
     <ClCompile Include="0520 Class\Practice1_upDownCasting.cpp">
       <Filter>소스 파일\0520</Filter>
     </ClCompile>
+    <ClCompile Include="0520 Class\Practice2_virtual func.cpp">
+      <Filter>소스 파일\0520</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="0508\member_tel.txt">
